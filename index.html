@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="menu">
+        <div @click="optionsVisible = !optionsVisible" id="toggle">
+          <img src="img/menu-toggle.svg" :class="{ menuOpen: optionsVisible }" />
+        </div>
+        <div v-show="optionsVisible" id="options">
+          <div v-for="(anOption, index) in options" :key="`option-${index}`" @click="clickOption(anOption)">
+            <img :src="anOption.active ? anOption.iconActive : anOption.icon" />
+          </div>
+        </div>
+      </div>
+
+      <div id="topBar">
+        <div></div>
+        <div>
+          <img @click="toggleMicro" :src="`img/${microImg}`" id="microImg" />
+        </div>
+        <div>
+          <img src="img/hamburger.svg" id="menuImg" />
+        </div>
+      </div>
+      <div id="content" :class="{ menuOpen: optionsVisible }">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero maiores pariatur possimus aliquid cumque
+          incidunt Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero maiores pariatur possimus aliquid
+        </p>
+        <p>
+          cumque incidunt Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero maiores pariatur possimus
+        </p>
+        <p>
+          aliquid cumque incidunt Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero maiores pariatur
+          possimus aliquid cumque incidunt Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero maiores
+        </p>
+        <p>
+          pariatur possimus aliquid cumque incidunt Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+          maiores pariatur possimus aliquid cumque incidunt Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        Libero maiores pariatur possimus aliquid cumque incidunt beatae laudantium. Eveniet, placeat, quis eaque iusto
+        <p>voluptate aliquid earum amet architecto quibusdam, at doloremque.</p>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
