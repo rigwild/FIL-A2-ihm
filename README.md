@@ -19,6 +19,10 @@ Supports:
  - Togglable commands (Mask mode, Motus, etc...), say `Activer mode masque`, `Désactiver mode masque`
  - One-tap commands (Adjust font size), say `Rétrécir texte`, `Agrandir texte`
 
+## Demo
+
+https://rigwild.github.io/FIL-A2-ihm/
+
 ## Screenshot
 
 ![screenshot](./screenshot.jpg)
