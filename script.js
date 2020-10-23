@@ -67,44 +67,38 @@ new Vue({
         {
           icon: 'img/cressant.svg',
           iconActive: 'img/cressant-active.svg',
-          isTogglable: true,
-          active: false,
-          name: ''
+          isTogglable: false,
+          name: 'fonctionnalité nom implémentée'
         },
         {
           icon: 'img/cressant.svg',
           iconActive: 'img/cressant-active.svg',
-          isTogglable: true,
-          active: false,
-          name: ''
+          isTogglable: false,
+          name: 'fonctionnalité nom implémentée'
         },
         {
           icon: 'img/cressant.svg',
           iconActive: 'img/cressant-active.svg',
-          isTogglable: true,
-          active: false,
-          name: ''
+          isTogglable: false,
+          name: 'fonctionnalité nom implémentée'
         },
         {
           icon: 'img/cressant.svg',
           iconActive: 'img/cressant-active.svg',
-          isTogglable: true,
-          active: false,
-          name: ''
+          isTogglable: false,
+          name: 'fonctionnalité nom implémentée'
         },
         {
           icon: 'img/cressant.svg',
           iconActive: 'img/cressant-active.svg',
-          isTogglable: true,
-          active: false,
-          name: ''
+          isTogglable: false,
+          name: 'fonctionnalité nom implémentée'
         },
         {
           icon: 'img/cressant.svg',
           iconActive: 'img/cressant-active.svg',
-          isTogglable: true,
-          active: false,
-          name: ''
+          isTogglable: false,
+          name: 'fonctionnalité nom implémentée'
         }
       ]
     }
